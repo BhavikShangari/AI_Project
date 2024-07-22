@@ -17,11 +17,8 @@ DDPG is a model-free Deep Reinforcement Learning algorithm for continuous domain
 ├── test.py                          For testing the trained model
 ├── util.py                          For plotting utility
 ├── portfolio.png                    Portfolio value during inference
-├── rewards_test.png                 Rewards gained during inference
 ├── tesla_train_price.png            Chart of Tesla stock prices for the training period
 ├── tesla_trade_price.png            Chart of Tesla stock prices for the inference period
-├── train_data_tesla_45min.csv       Stock price data of Tesla from Jan-2015 to Dec-2022 at 45 min granularity
-├── trade_data_tesla_5min.csv        Stock price data of Tesla from Jan-2023 to Oct-2023 at 5 min granularity
 └── tmp
     └── ddpg
         ├── actor_model_weights.txt            Actor model weights
